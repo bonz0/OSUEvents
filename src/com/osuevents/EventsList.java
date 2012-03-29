@@ -7,6 +7,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+/**
+ * The Ohio State University Events Application (Android platform)
+ * @author Farhang Zia
+ */
+
 public class EventsList extends ArrayAdapter<Event> {
 	
 	private Event[] eventsArray;

@@ -19,6 +19,11 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HttpContext;
 
+/**
+ * The Ohio State University Events Application (Android platform)
+ * @author Farhang Zia
+ */
+
 public class OSUEventsActivity extends ListActivity {
 	private Runnable loadHttp;
 	public String resUI;

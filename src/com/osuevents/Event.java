@@ -6,9 +6,10 @@ package com.osuevents;
 import java.util.Date;
 
 /**
- * @author farhang
- *
+ * The Ohio State University Events Application (Android platform)
+ * @author Farhang Zia
  */
+
 public class Event {
 	private long event_id;
 	private String name,
@@ -110,10 +111,5 @@ public class Event {
 	}
 	public void setStatus(boolean event_status) {
 		this.status = event_status;
-	}
-	
-	@Override
-	public String toString() {
-		return this.name;
 	}
 }
